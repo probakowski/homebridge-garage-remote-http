@@ -1,0 +1,12 @@
+        {
+            "name": "Garage door 1",
+            "platform": "@SenorFernando/homebridge-garage-remote-http",
+            "accessory": "GarageDoorOpener",
+            "openURL": "http://192.168.88.1/push",
+            "closeURL": "http://192.168.88.1/push",
+            "openTime": "15",
+            "closeTime": "15",
+            "polling": "true",
+            "pollInterval": "40",
+            "statusURL": "http://192.168.88.1/read"
+        }
