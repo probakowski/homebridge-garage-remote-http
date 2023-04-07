@@ -1,6 +1,6 @@
 {
-  "name": "homebridge-garage-remote-http",
-  "version": "1.0.1",
+  "name": "@SenorFernando/homebridge-garage-remote-http",
+  "version": "1.0.0",
   "description": "Homebridge plugin for a simple web-based garage",
   "main": "index.js",
   "engines": {
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/andreaseu/homebridge-garage-remote-http"
+    "url": "git+https://github.com/SenorFernando/homebridge-garage-remote-http"
   },
   "dependencies": {
     "request": ">=2.88.0"
@@ -25,11 +25,10 @@
     "home",
     "remote"
   ],
-  "author": "Andreas Hähnel",
+  "author": "Fernando Villeda",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/andreaseu/homebridge-garage-remote-http/issues",
-    "email": "mail@andreas.eu"
+    "url": "https://github.com/SenorFernando/homebridge-garage-remote-http/issues",
   },
-  "homepage": "https://github.com/andreaseu/homebridge-garage-remote-http#readme"
+  "homepage": "https://github.com/SenorFernando/homebridge-garage-remote-http#readme"
 }
