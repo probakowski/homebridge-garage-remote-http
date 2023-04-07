@@ -91,7 +91,13 @@ GarageDoorOpener.prototype = {
   setTargetDoorState: function (value, callback) {
     var url
     this.log.debug('Setting targetDoorState to %s', value)
-    if (value === 1) {
+    const currentState = this.service.getCharacteristic(Characteristic.CurrentDoorState.value);
+    if (value == currentState){
+      this.log("Door was already in that state");
+      callback()
+      return;
+    }
+    else if (value === 1 && value != this._getStatus(function () {})) {
       url = this.closeURL
     } else {
       url = this.openURL
