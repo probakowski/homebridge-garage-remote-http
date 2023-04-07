@@ -2,6 +2,10 @@
 
 [![npm](https://img.shields.io/npm/v/homebridge-garage-remote-http.svg)](https://www.npmjs.com/package/homebridge-garage-remote-http) [![npm](https://img.shields.io/npm/dt/homebridge-garage-remote-http.svg)](https://www.npmjs.com/package/homebridge-garage-remote-http)
 
+This work is forked from https://github.com/jmaferreira/homebridge-garage-remote-http.
+
+Fixed a bug, where calling "close the garagedoor" on already closed door actually opens them
+
 ## Description
 
 This [homebridge](https://github.com/nfarina/homebridge) plugin exposes a web-based garage opener to Apple's [HomeKit](http://www.apple.com/ios/home/). Using simple HTTP requests, the plugin allows you to open/close the garage.
