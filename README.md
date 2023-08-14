@@ -2,9 +2,9 @@
 
 [![npm](https://img.shields.io/npm/v/homebridge-garage-remote-http.svg)](https://www.npmjs.com/package/homebridge-garage-remote-http) [![npm](https://img.shields.io/npm/dt/homebridge-garage-remote-http.svg)](https://www.npmjs.com/package/homebridge-garage-remote-http)
 
-This work is forked from https://github.com/jmaferreira/homebridge-garage-remote-http.
+This work is forked from https://github.com/SenorFernando/homebridge-garage-remote-http.
 
-Fixed a bug, where calling "close the garagedoor" on already closed door actually opens them
+Fixed a bug, hard coded "GET", logging to DEBUG only and statusURL body
 
 ## Description
 
