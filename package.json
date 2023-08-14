@@ -7,12 +7,12 @@
     "homebridge": ">=0.4.50",
     "node": ">=12.13.0"
   },
-  "scripts": {
+  "scripts": {       
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shahvo/homebridge-garage-remote-http"
+    "url": "https://github.com/shahvo/homebridge-garage-remote-http"
   },
   "dependencies": {
     "request": ">=2.88.0"
@@ -27,8 +27,9 @@
   ],
   "author": "Vivek Shah",
   "license": "MIT",
+  "displayName":"Simple Garage Door Opener",
   "bugs": {
-    "url": "https://github.com/shahvo/homebridge-garage-remote-http/issues",
-  },
-  "homepage": "https://github.com/shahvo/homebridge-garage-remote-http#readme"
+    "type": "git",
+    "url": "https://github.com/shahvo/homebridge-garage-remote-http"
+  }
 }
