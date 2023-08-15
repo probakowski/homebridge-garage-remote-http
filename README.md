@@ -55,6 +55,7 @@ This [homebridge](https://github.com/nfarina/homebridge) plugin exposes a web-ba
 | `polling` | Whether the state should be polled at intervals | `false` |
 | `pollInterval` | Time (in seconds) between device polls (if `polling` is enabled) | `120` |
 | `statusURL` | URL to retrieve state on poll (should return `0` or `1`) | N/A |
+| `statusURLBody` | Additional information to pass along with status URL query | N/A |
 
 ### Additional options
 | Key | Description | Default |
