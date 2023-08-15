@@ -1,14 +1,16 @@
-        {
-            "name": "Garage door 1",
-            "platform": "@shahvo/homebridge-garage-remote-http",
-            "accessory": "GarageDoorOpener",
-            "openURL": "http://192.168.88.1/push",
-            "closeURL": "http://192.168.88.1/push",
-            "statusURL": "http://192.168.88.1/read",
-            "statusURLBody": "Optional data",
-
-            "openTime": "15",
-            "closeTime": "15",
-            "polling": "true",
-            "pollInterval": "40"            
-        }
+{
+    "accessory": "GarageDoorOpener",
+    "name": "Garage Door One",
+    "username": "api username if required",
+    "password": "api password if required",
+    "openURL": "http://192.168.1.105/api/garage/open/1",
+    "closeURL": "http://192.168.1.105/api/garage/close/1",
+    "statusURL": "http://192.168.1.105/api/garage/state/1",
+    "statusURLBody": "additional data if required",
+    "polling": "true",
+    "pollInterval": "15",
+    "http_method": "default GET",
+    "manufacturer": "display only",
+    "model": "display only",
+    "firmware": "display only"
+}
