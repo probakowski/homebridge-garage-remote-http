@@ -2,6 +2,7 @@
   "name": "@shahvo/homebridge-garage-remote-http",
   "version": "1.0.0",
   "description": "Homebridge plugin for a simple web-based garage",
+  "displayName":"Simple HTTP based Garage Door Opener",
   "main": "index.js",
   "engines": {
     "homebridge": ">=0.4.50",
@@ -27,9 +28,8 @@
   ],
   "author": "Vivek Shah",
   "license": "MIT",
-  "displayName":"Simple Garage Door Opener",
   "bugs": {
     "type": "git",
-    "url": "https://github.com/shahvo/homebridge-garage-remote-http"
+    "url": "https://github.com/shahvo/homebridge-garage-remote-http/issues"
   }
 }
