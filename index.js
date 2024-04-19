@@ -76,7 +76,7 @@ GarageDoorOpener.prototype = {
     var body = this.statusURLBody
     this.log.debug('Getting status: %s, %s', url, body)
 
-    this._httpRequest(url, body, this.http_method, function (error, response, responseBody) {
+    this._httpRequest(url, body, 'GET', function (error, response, responseBody) {
       if (error) {
         this.log.warn('Error getting status: %s', error.message)
         this.service.getCharacteristic(Characteristic.CurrentDoorState).updateValue(new Error('Polling failed'))
